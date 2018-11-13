@@ -1,5 +1,8 @@
-# easing-constants
+# easing-constants [![Build Status][ci-img]][ci]
 Some useful strings to be used in JavaScript for animations with nice easing (=equivalent to transition-timing-function in CSS).
+
+[ci-img]:  https://travis-ci.org/MattDiMu/easing-constants.svg
+[ci]:      https://travis-ci.org/MattDiMu/easing-constants
 
 ## Env Compatibility
 Just import it the way you want. It's available 
