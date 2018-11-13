@@ -6,9 +6,9 @@
   "browser": "dist/easing-constants.umd.js",
   "dependencies": {},
   "devDependencies": {
-    "rollup": "^0.67.0",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.0.0"
+    "rollup": "^0.67.1",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0"
   },
   "scripts": {
     "build": "rollup -c",
