@@ -1,0 +1,22 @@
+{
+  "name": "easing-constants",
+  "version": "0.1.0",
+  "main": "dist/easing-constants.cjs.js",
+  "module": "dist/easing-constants.esm.js",
+  "browser": "dist/easing-constants.umd.js",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.67.0",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
