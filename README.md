@@ -1,9 +1,9 @@
 # easing-constants
-Some useful strings to be used in JavaScript for easing (equivalent to transition-timing-function in CSS).
+Some useful strings to be used in JavaScript for animations with nice easing (=equivalent to transition-timing-function in CSS).
 
 ## Env Compatibility
 Just import it the way you want. It's available 
-- as modern ES-module (e.g. webpack) - see `module`-field in package.jsonA
+- as modern ES-module (webpack, parcel or whatever module bundler you're using) - see `module`-field in package.jsonA
 - as "legacy" UMD build - see `browser`-field
 - or even for usage in pure nodejs - see `main`-field in package.json
 
@@ -27,7 +27,7 @@ document.body.animate([
     fill: "forwards"
 })
 ```
-The default export (the EASING-variable above) is an simple object containing the following keys:
+The default export (the EASING-variable above) is an simple object containing currently the following keys:
 - `IN_OUT_CUBIC`
 - `IN_OUT_QUADRATIC`
 - `ACCELERATE_QUADRATIC`
