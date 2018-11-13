@@ -1,6 +1,6 @@
 {
   "name": "easing-constants",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/easing-constants.cjs.js",
   "module": "dist/easing-constants.esm.js",
   "browser": "dist/easing-constants.umd.js",
